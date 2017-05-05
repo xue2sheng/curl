@@ -5,7 +5,7 @@
  *                            | (__| |_| |  _ <| |___
  *                             \___|\___/|_| \_\_____|
  *
- * Copyright (C) 1998 - 2016, Daniel Stenberg, <daniel@haxx.se>, et al.
+ * Copyright (C) 1998 - 2017, Daniel Stenberg, <daniel@haxx.se>, et al.
  *
  * This software is licensed as described in the file COPYING, which
  * you should have received as part of this distribution. The terms
@@ -158,6 +158,7 @@ static const char *const helptext[] = {
   "     --ntlm          Use HTTP NTLM authentication (H)",
   "     --ntlm-wb       Use HTTP NTLM authentication with winbind (H)",
   "     --oauth2-bearer TOKEN  OAuth 2 Bearer Token (IMAP, POP3, SMTP)",
+  "     --strip-path-slash Strip off the first slash of the path",
   " -o, --output FILE   Write to FILE instead of stdout",
   "     --pass PASS     Pass phrase for the private key (SSL/SSH)",
   "     --path-as-is    Do not squash .. sequences in URL path",
